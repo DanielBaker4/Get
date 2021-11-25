@@ -1,0 +1,444 @@
+{
+  "name": "ds-codigos-postales",
+  "title": "Dataset de Códigos Postales",
+  "description": "Geometrías de todos los códigos postales de España, incluyendo los códigos INE de los municipios asociados",
+  "sources": [
+    {
+      "name": "CNIG - Centro Nacional de Información Geográfica",
+      "web": "http://centrodedescargas.cnig.es/CentroDescargas/"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Javier Escribano"
+    },
+    {
+      "name": "Iñigo Flores"
+    }
+  ],
+  "resources": [
+    {
+      "name": "alava",
+      "path": "data/ALAVA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 10642159
+    },
+    {
+      "name": "albacete",
+      "path": "data/ALBACETE.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 1592827
+    },
+    {
+      "name": "alicante",
+      "path": "data/ALICANTE.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2571122
+    },
+    {
+      "name": "almeria",
+      "path": "data/ALMERIA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2115989
+    },
+    {
+      "name": "asturias",
+      "path": "data/ASTURIAS.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2776847
+    },
+    {
+      "name": "avila",
+      "path": "data/AVILA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2233487
+    },
+    {
+      "name": "a_coruna",
+      "path": "data/A_CORUNA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3439884
+    },
+    {
+      "name": "badajoz",
+      "path": "data/BADAJOZ.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3605629
+    },
+    {
+      "name": "baleares",
+      "path": "data/BALEARES.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 8839036
+    },
+    {
+      "name": "barcelona",
+      "path": "data/BARCELONA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4353923
+    },
+    {
+      "name": "burgos",
+      "path": "data/BURGOS.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3636682
+    },
+    {
+      "name": "caceres",
+      "path": "data/CACERES.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4150402
+    },
+    {
+      "name": "cadiz",
+      "path": "data/CADIZ.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 1792785
+    },
+    {
+      "name": "cantabria",
+      "path": "data/CANTABRIA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 1783599
+    },
+    {
+      "name": "castellon",
+      "path": "data/CASTELLON.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 1588869
+    },
+    {
+      "name": "ceuta",
+      "path": "data/CEUTA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 207321
+    },
+    {
+      "name": "ciudad_real",
+      "path": "data/CIUDAD_REAL.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2258499
+    },
+    {
+      "name": "cordoba",
+      "path": "data/CORDOBA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2254218
+    },
+    {
+      "name": "cuenca",
+      "path": "data/CUENCA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2706299
+    },
+    {
+      "name": "girona",
+      "path": "data/GIRONA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2290634
+    },
+    {
+      "name": "granada",
+      "path": "data/GRANADA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3768758
+    },
+    {
+      "name": "guadalajara",
+      "path": "data/GUADALAJARA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2845020
+    },
+    {
+      "name": "guipuzcoa",
+      "path": "data/GUIPUZCOA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4679035
+    },
+    {
+      "name": "huelva",
+      "path": "data/HUELVA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2067582
+    },
+    {
+      "name": "huesca",
+      "path": "data/HUESCA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2819267
+    },
+    {
+      "name": "jaen",
+      "path": "data/JAEN.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2704050
+    },
+    {
+      "name": "las_palmas",
+      "path": "data/LAS_PALMAS.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 9177768
+    },
+    {
+      "name": "la_rioja",
+      "path": "data/LA_RIOJA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 1613675
+    },
+    {
+      "name": "leon",
+      "path": "data/LEON.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2477665
+    },
+    {
+      "name": "lleida",
+      "path": "data/LLEIDA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2548618
+    },
+    {
+      "name": "lugo",
+      "path": "data/LUGO.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2021931
+    },
+    {
+      "name": "madrid",
+      "path": "data/MADRID.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 7051479
+    },
+    {
+      "name": "malaga",
+      "path": "data/MALAGA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2242709
+    },
+    {
+      "name": "melilla",
+      "path": "data/MELILLA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 65928
+    },
+    {
+      "name": "murcia",
+      "path": "data/MURCIA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 1866292
+    },
+    {
+      "name": "navarra",
+      "path": "data/NAVARRA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 20458741
+    },
+    {
+      "name": "ourense",
+      "path": "data/OURENSE.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 1461033
+    },
+    {
+      "name": "palencia",
+      "path": "data/PALENCIA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 1655470
+    },
+    {
+      "name": "pontevedra",
+      "path": "data/PONTEVEDRA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 1999234
+    },
+    {
+      "name": "salamanca",
+      "path": "data/SALAMANCA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3668174
+    },
+    {
+      "name": "segovia",
+      "path": "data/SEGOVIA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 1612559
+    },
+    {
+      "name": "sevilla",
+      "path": "data/SEVILLA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2307505
+    },
+    {
+      "name": "soria",
+      "path": "data/SORIA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 1405374
+    },
+    {
+      "name": "tarragona",
+      "path": "data/TARRAGONA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3806317
+    },
+    {
+      "name": "tenerife",
+      "path": "data/TENERIFE.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 10184677
+    },
+    {
+      "name": "teruel",
+      "path": "data/TERUEL.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2552845
+    },
+    {
+      "name": "toledo",
+      "path": "data/TOLEDO.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2981210
+    },
+    {
+      "name": "valencia",
+      "path": "data/VALENCIA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3187838
+    },
+    {
+      "name": "valladolid",
+      "path": "data/VALLADOLID.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 1727403
+    },
+    {
+      "name": "vizcaya",
+      "path": "data/VIZCAYA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4265954
+    },
+    {
+      "name": "zamora",
+      "path": "data/ZAMORA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 1891800
+    },
+    {
+      "name": "zaragoza",
+      "path": "data/ZARAGOZA.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3996762
+    },
+    {
+      "name": "codigos_postales",
+      "path": "data/codigos_postales.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 181920822
+    },
+    {
+      "name": "codigos_postales_municipios",
+      "path": "data/codigos_postales_municipios.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 169893,
+      "schema": {
+        "fields": [
+          {
+            "name": "COD_POSTAL",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "CODIGO_INE",
+            "type": "integer",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "codigos_postales_municipios_join",
+      "path": "data/codigos_postales_municipios_join.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 294926,
+      "schema": {
+        "fields": [
+          {
+            "name": "codigo_postal",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "municipio_id",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "nombre",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    }
+  ],
+  "homepage": "",
+  "version": "0.1.131",
+  "license": "ODC-PDDL-1.0",
+  "repository": "git://github.com/codeforspain/ds-codigos-postales.git",
+  "last_updated": "2017-06-19"
+}
