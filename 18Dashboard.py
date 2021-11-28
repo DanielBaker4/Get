@@ -21,8 +21,8 @@ cp_spain_mainstreets  = gpd.read_file("data/BCN500_0602L_CARRETERA_PPAL.shp", cr
 #according to documentation of the dataset
 cp_spain_smallstreets = gpd.read_file("data/BCN500_0601L_AUTOP_AUTOV.shp", crs="epsg:4258")
 provincias_catalunya = cp_spain_administr[cp_spain_administr["CCAA"]=="Cataluña"]
-streets_in_catalunya_main =  gpd.read_file("streets_in_catalunya_main.shp", crs="epsg:4258")
-streets_in_catalunya_small = gpd.read_file("streets_in_catalunya_small.shp", crs="epsg:4258")
+streets_in_catalunya_main =  gpd.read_file("data/streets_in_catalunya_main.shp", crs="epsg:4258")
+streets_in_catalunya_small = gpd.read_file("data/streets_in_catalunya_small.shp", crs="epsg:4258")
 streets_in_catalunya_main["num_TIPO_0602"] = streets_in_catalunya_main["TIPO_0602"].astype(float)
 streets_in_catalunya_small["num_TIPO_0601"] = streets_in_catalunya_small["TIPO_0601"].astype(float)
 
@@ -37,7 +37,7 @@ results = client.get("rmgc-ncpb", limit=16774)
 # Convert to pandas DataFrame
 results_df =  gpd.GeoDataFrame.from_records(results)
 
-df_pobl = pd.read_excel("PoblacioComarques.xls")
+df_pobl = pd.read_excel("data/PoblacioComarques.xls")
 
 maps = st.container()
 
